@@ -64,7 +64,7 @@ If you want to run tests, you can do so inside the Docker container.
 
 2. Add the remote repository:
     ```bash
-    git remote add origin https://github.com/username/repo.git
+    git remote add origin https://github.com/KalyaniPatilPancham/Network_Connections
     ```
 
 3. Add all files to the staging area:
@@ -74,7 +74,7 @@ If you want to run tests, you can do so inside the Docker container.
 
 4. Commit the files:
     ```bash
-    git commit -m "Initial commit"
+    git commit -m "commited for review"
     ```
 
 5. Push to the remote repository:
