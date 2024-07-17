@@ -56,8 +56,3 @@ If you want to run tests, you can do so inside the Docker container.
     ```bash
     docker run main go test ./... -v
     ```
-
-## Example Outputs
-
-### Docker Compose Logs
-
