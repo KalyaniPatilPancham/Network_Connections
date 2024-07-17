@@ -55,7 +55,30 @@ If you want to run tests, you can do so inside the Docker container.
     docker run main go test ./... -v
     ```
 
-## Example Outputs
+## Pushing to GitHub
 
-### Docker Compose Logs
+1. Initialize the Git repository:
+    ```bash
+    git init
+    ```
+
+2. Add the remote repository:
+    ```bash
+    git remote add origin https://github.com/username/repo.git
+    ```
+
+3. Add all files to the staging area:
+    ```bash
+    git add .
+    ```
+
+4. Commit the files:
+    ```bash
+    git commit -m "Initial commit"
+    ```
+
+5. Push to the remote repository:
+    ```bash
+    git push -u origin master
+    ```
 
